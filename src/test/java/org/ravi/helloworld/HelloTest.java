@@ -31,8 +31,8 @@ public class HelloTest {
 	public void f() {
 
 		//text = driver.findElement(By.xpath("html/body/h2"));
-		//Assert.assertEquals(driver.getTitle(), "");
-		//System.out.println("Test Passed");
+		Assert.assertEquals(driver.getTitle(), "");
+		System.out.println("Test Passed");
 
 	}
 
